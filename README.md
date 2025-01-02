@@ -1,11 +1,11 @@
   # boiler-plate-code
 Backend:
 
- mkdir server-name
- cd  server-name 
- npm init -y
-npm i express cors mongodb dotenv
-code . 
+     mkdir server-name  
+     cd  server-name 
+    npm init -y
+          npm i express cors mongodb dotenv
+    code . 
 
 
 
@@ -93,12 +93,7 @@ code .
      }
     run().catch(console.dir);
 
-
-
-
-
-
-app.listen(port, (res,req)=>{
+    app.listen(port, (res,req)=>{
     console.log(`port is running ,${port}`)
-})
+    })
 
